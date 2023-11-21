@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container" id="home">
+      <div class="wrapper">
+        <nav class="navbar">
+          <div class="nav-brand">Mhd Aris</div>
+          <div class="navbar-nav">
+            <ul class="nav-link">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#our-package">Our Package</a></li>
+              <li class="nav-item"><a href="#call-us">Call Us</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="home-content">
+          <h1 class="home-title slate-700 text-center">
+            Your Trusted Travel Agent's
+          </h1>
+          <p class="home-subtitle slate-400 text-center">
+            Your happiness is our happiness
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide">
+                  <img src="css/image-1.png" alt="Slide 1" />
+                </div>
+                <div class="slide">
+                  <img src="css/image-2.png" alt="Slide 2" />
+                </div>
+                <!-- Add more slides as needed -->
+              </div>
+            </div>
+          </div>
+          <div class="col-4 bg-slate-100">
+            <div class="home-contact-form">
+              <h2 class="slate-700">Contact Us</h2>
+              <p class="slate-400">
+                Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+              </p>
+              <form id="contactForm" action="#" method="post">
+                <label class="slate-700" for="name">Your Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="First and last name"
+                />
+
+                <label class="slate-700" for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="example@email.com"
+                />
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic" required>
+                  <option value="" disabled selected>Select Option</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="support">Support</option>
+                  <option value="feedback">Feedback</option>
+                </select>
+
+                <button type="submit" class="bg-slate-700">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="our-package">
+      <div class="wrapper">
+        <h1>Our Package</h1>
+      </div>
+    </div>
+    <div class="container" id="call-us">
+      <div class="wrapper">
+        <h1>Call Us</h1>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
